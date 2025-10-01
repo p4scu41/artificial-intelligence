@@ -1,0 +1,65 @@
+id_integrante;Unidad;Cargo;Nombre;Fecha de Contratación;Edad;Estado del Integrante;Fuente de Reclutamiento;Año de Contratación
+E001;Beta;Asistente;Evans;01/09/2015;38;Activo;Sitio de la Empresa;01/09/2015
+E002;Beta;Gerente;Ramos;03/02/2015;45;Activo;Indicación de Empleados;03/02/2015
+E003;Beta;Gerente;Montgomery;06/07/2017;49;Activo;Sitio de Vacantes;06/07/2017
+E004;Sul;Consultor;Morris;03/11/2018;26;Activo;Sitio de Vacantes;04/11/2018
+E005;Sul;Gerente;Simmons;28/09/2017;35;Activo;Feria de Contratación;28/09/2017
+E006;Gama;Consultor;Vasquez;04/12/2017;33;Activo;Sitio de Vacantes;04/12/2017
+E007;Gama;Supervisor;Simpson;18/08/2016;30;Activo;Sitio de Vacantes;18/08/2016
+E008;Alpha;Consultor;Rivero;06/07/2017;29;Activo;Feria de Contratación;06/07/2017
+E009;Alpha;Gerente;Martinez;02/06/2019;35;Activo;Indicación de Empleados;02/06/2019
+E010;Beta;Operador;Burton;30/06/2016;38;Activo;Sitio de Vacantes;30/06/2016
+E011;Gama;Asistente;Porter;01/09/2015;35;Activo;Sitio de la Empresa;01/09/2015
+E012;Sul;Asistente;Butler;18/08/2016;25;Activo;Feria de Contratación;18/08/2016
+E013;Alpha;Operador;Alexandar;30/09/2014;36;Activo;Sitio de Vacantes;30/09/2014
+E014;Alpha;Gerente;Duncan;16/11/2016;41;Activo;Feria de Contratación;16/11/2016
+E015;Sul;Asistente;Peters;06/08/2016;28;Activo;Sitio de Vacantes;06/08/2016
+E016;Alpha;Supervisor;Castillo;19/02/2015;47;Activo;Sitio de Vacantes;19/02/2015
+E017;Alpha;Asistente;Kim;18/02/2016;49;Activo;Sitio de la Empresa;18/02/2016
+E018;Gama;Consultor;Long;06/06/2016;38;Activo;Indicación de Empleados;06/06/2016
+E019;Alpha;Operador;Diaz;03/02/2015;26;Activo;Sitio de Vacantes;03/02/2015
+E020;Sul;Supervisor;Larson;03/09/2018;39;Activo;Indicación de Empleados;03/09/2018
+E021;Beta;Operador;Hanson;06/02/2015;31;Activo;Sitio de la Empresa;06/02/2015
+E022;Gama;Asistente;Ruiz;11/09/2015;34;Activo;Sitio de Vacantes;11/09/2015
+E023;Gama;Consultor;Hernandez;07/09/2015;37;Activo;Sitio de Vacantes;07/09/2015
+E024;Beta;Supervisor;Griffin;30/09/2014;36;Activo;Feria de Contratación;30/09/2014
+E025;Sul;Consultor;Green;06/08/2016;31;Activo;Indicación de Empleados;06/08/2016
+E026;Sul;Gerente;Armstrong;10/05/2016;34;Activo;Sitio de Vacantes;10/05/2016
+E027;Alpha;Operador;Moreno;17/03/2017;29;Activo;Sitio de Vacantes;17/03/2017
+E028;Beta;Consultor;Silva;22/10/2016;40;Activo;Feria de Contratación;22/10/2016
+E029;Gama;Asistente;Costa;11/04/2018;27;Activo;Indicación de Empleados;11/04/2018
+E030;Sul;Supervisor;Navarro;06/08/2017;42;Activo;Sitio de Vacantes;06/08/2017
+E031;Alpha;Gerente;Fernandez;01/01/2019;46;Activo;Sitio de la Empresa;01/01/2019
+E032;Beta;Asistente;Ibarra;15/05/2015;33;Activo;Feria de Contratación;15/05/2015
+E033;Gama;Operador;Peña;28/09/2016;30;Activo;Sitio de Vacantes;28/09/2016
+E034;Sul;Gerente;Romero;02/02/2018;44;Activo;Sitio de la Empresa;02/02/2018
+E035;Alpha;Supervisor;Gomez;14/07/2017;39;Activo;Indicación de Empleados;14/07/2017
+E036;Beta;Consultor;Castro;03/12/2015;32;Activo;Sitio de Vacantes;03/12/2015
+E037;Gama;Gerente;Lopez;27/10/2016;45;Activo;Feria de Contratación;27/10/2016
+E038;Sul;Asistente;Ortega;09/11/2018;29;Activo;Sitio de Vacantes;09/11/2018
+E039;Alpha;Consultor;Sanchez;19/05/2016;35;Activo;Sitio de la Empresa;19/05/2016
+E040;Beta;Operador;Delgado;01/08/2015;28;Activo;Sitio de Vacantes;01/08/2015
+E041;Gama;Supervisor;Vega;12/03/2017;41;Activo;Indicación de Empleados;12/03/2017
+E042;Sul;Operador;Mendoza;05/06/2015;30;Activo;Sitio de la Empresa;05/06/2015
+E043;Alpha;Asistente;Paz;20/07/2016;27;Activo;Sitio de Vacantes;20/07/2016
+E044;Beta;Consultor;Mendez;11/09/2017;36;Activo;Feria de Contratación;11/09/2017
+E045;Gama;Gerente;Flores;07/11/2015;43;Activo;Indicación de Empleados;07/11/2015
+E046;Sul;Supervisor;Acosta;29/01/2016;39;Activo;Sitio de Vacantes;29/01/2016
+E047;Alpha;Gerente;Carrillo;08/08/2018;45;Activo;Sitio de la Empresa;08/08/2018
+E048;Beta;Operador;Rojas;04/04/2015;34;Activo;Sitio de Vacantes;04/04/2015
+E049;Gama;Asistente;Mejia;10/10/2016;30;Activo;Feria de Contratación;10/10/2016
+E050;Sul;Consultor;Campos;26/09/2018;31;Activo;Sitio de Vacantes;26/09/2018
+E051;Alpha;Supervisor;Fuentes;18/06/2017;38;Activo;Sitio de la Empresa;18/06/2017
+E052;Beta;Gerente;Salazar;15/03/2016;47;Activo;Sitio de Vacantes;15/03/2016
+E053;Gama;Consultor;Reyes;02/07/2019;33;Activo;Indicación de Empleados;02/07/2019
+E054;Sul;Asistente;Bravo;09/09/2017;29;Activo;Sitio de la Empresa;09/09/2017
+E055;Alpha;Operador;Leal;03/03/2015;27;Activo;Sitio de Vacantes;03/03/2015
+E056;Beta;Supervisor;Ponce;21/10/2018;42;Activo;Feria de Contratación;21/10/2018
+E057;Gama;Gerente;Cano;28/11/2016;46;Activo;Sitio de Vacantes;28/11/2016
+E058;Sul;Consultor;Rico;17/08/2015;35;Activo;Sitio de la Empresa;17/08/2015
+E059;Alpha;Asistente;Del Valle;22/04/2017;28;Activo;Sitio de Vacantes;22/04/2017
+E060;Beta;Gerente;Peñaloza;19/02/2016;45;Activo;Indicación de Empleados;19/02/2016
+E061;Gama;Operador;Araya;05/05/2018;30;Activo;Sitio de Vacantes;05/05/2018
+E062;Sul;Asistente;Nieves;01/10/2015;33;Activo;Sitio de la Empresa;01/10/2015
+E063;Alpha;Supervisor;Valencia;13/06/2017;40;Activo;Feria de Contratación;13/06/2017
+E064;Beta;Consultor;Gallardo;07/03/2019;36;Activo;Sitio de Vacantes;07/03/2019
