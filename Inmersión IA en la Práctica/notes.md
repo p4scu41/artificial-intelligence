@@ -21,6 +21,13 @@ Prompt: texto de solicitud a la IA
 - [Jasper AI](https://www.jasper.ai/): Crea contenidos para marketing, anuncios y blogs.
 - [Writesonic](https://writesonic.com/): Genera artículos, textos publicitarios y publicaciones para redes sociales.
 - [Copy.ai](https://www.copy.ai/): Ayuda en la creación de textos creativos y descripciones de productos.
+- [Gamma](https://gamma.app/create/generate): Crear presentaciones
+- [Tactiq](https://tactiq.io/): in-meeting transcriptions and insightful AI summaries
+- [Napkin](https://www.napkin.ai/): turns your text into visuals
+- [Glasp](https://glasp.co/): YouTube Summary with ChatGPT & Claude is a free Chrome Extension
+- [Visily](https://www.visily.ai/):  AI design partner for product teams
+- [Pika](https://pika.art/): The idea-to-video platform that sets your creativity in motion.
+- [tl;dv](https://tldv.io/): take your meeting notes.
 
 Frase del día: Seré un profesional 5.0 en 2025
 
@@ -49,6 +56,23 @@ Frase del día: Todo es fácil cuando se tiene una buena dirección
 ## [Clase 03 – Tu primer proyecto completo: Combina el poder de las IAs para crear proyectos increíbles](https://www.youtube.com/watch?v=dxFIyBCLfNs)
 ¡El mejor día de la inmersión! Ha llegado el momento de explorar el mayor poder de la IA: aprenderás a combinar distintas herramientas para crear un proyecto único. Esta es la estrategia que te hará destacar con Inteligencia Artificial.
 
+- Proyecto: Recursos humanos de una empresa de marketing. Crear capacitación para nuevos integrantes, de manera que puedan consultar y resolver dudas.
+- Cómo combinar herramientas de IA
+  - Divide el problema en etapas
+  - Usa la herramienta adecuada para tu objetivo
+- Ideamap para tener los temas principales del proyecto
+- ChatGPT para desarrollar el tema principal
+- Gamma para crear la presentación
+- ChatGPT - Barra lateral - Explorar GPT
+  - Crear Agente: Nombre, Descripción, Instrucciones, Conocimientos (Archivos)
+- https://ia.daxus.com/
+  - Chat Daxus
+  - Simulador de Entrevistas
+  - Creador de Currículum
+  - Creador de Imágenes
+
+Frase del día: Quiero ser experto en Inteligencia Artificial
+
 
 ## [Clase 04 – Análisis de datos con IA: Crea análisis y gráficos impactantes en segundos](https://www.youtube.com/watch?v=LVP1iFkPzBE)
-Aprende a aplicar herramientas de IA en un área que está creciendo rápidamente en el mercado laboral: el Análisis de Datos.Descubrirás cómo crear gráficos y análisis sofisticados que impresionarán a cualquier empresa.
+Aprende a aplicar herramientas de IA en un área que está creciendo rápidamente en el mercado laboral: el Análisis de Datos. Descubrirás cómo crear gráficos y análisis sofisticados que impresionarán a cualquier empresa.
