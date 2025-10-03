@@ -28,6 +28,7 @@ Prompt: texto de solicitud a la IA
 - [Visily](https://www.visily.ai/):  AI design partner for product teams
 - [Pika](https://pika.art/): The idea-to-video platform that sets your creativity in motion.
 - [tl;dv](https://tldv.io/): take your meeting notes.
+- [Napkin](https://app.napkin.ai): turns your text into visuals so sharing your ideas is quick and effective.
 
 Frase del día: Seré un profesional 5.0 en 2025
 
@@ -76,3 +77,39 @@ Frase del día: Quiero ser experto en Inteligencia Artificial
 
 ## [Clase 04 – Análisis de datos con IA: Crea análisis y gráficos impactantes en segundos](https://www.youtube.com/watch?v=LVP1iFkPzBE)
 Aprende a aplicar herramientas de IA en un área que está creciendo rápidamente en el mercado laboral: el Análisis de Datos. Descubrirás cómo crear gráficos y análisis sofisticados que impresionarán a cualquier empresa.
+
+Empresa de Call Center que está teniendo algunos problemas en atención. Tú eres un analista que necesita analizar la base de datos del último mes.
+  - Análisis exploratorio
+  - Adjuntar la BDatos a ChatGPT
+  - Prompt:
+  ```
+  Intención
+    Necesito analizar la base de datos enviada por mi agente para crear un informe para la empresa.
+  Detalles
+    Soy un analista de una empresa de Call Center y estamos enfrentando algunos problemas en relación con la calidad de las llamadas y el tiempo de respuesta para que el cliente sea atendido.
+  Ejemplos
+    1. Responda las preguntas de forma estructurada siendo muy detallista sobre sus respuestas.
+    2. Necesito que actúe como un especialista en análisis de datos.
+  Acción
+    Presente la estructura de la base de datos antes de proponer algunos análisis.
+  Límite
+    No cree información ficticia ni saque conclusiones sin fundamento en los números enviados
+  ```
+  - Presente posibles análisis que podemos realizar con la BDatos
+  - Analiza la cantidad de llamadas recibidas por área
+  - Indicadores críticos o KPI: Tiempo de espera
+  - Sabiendo que el tiempo de espera máximo ideal es de 60 seg ¿Algun agente tiene un tiempo promedio por debajo de eso?
+  - Análiza el tiempo promedio de respuesta por cada agente
+  - Haz un gráfico del tiempo promedio
+  - Ahora quiero saber sobre el porcentage de problemas resueltos frente al total de llamadas
+  - Identifique a los agentes con mayores indices de No solucion
+  - Crea un gráfico de barras verticales con el % de no solución por agente
+  - Añade a este grafico el indice de satisfaccion por agente, utiliza un grafico de columnas y lineas, usa el color azul para las columnas y el naranja para las lineas.
+  - Cual es tu interpretacion de este grafico, Explica tu vision para cada agente
+  ```
+  Elabora un informe detallado de los análisis en formato de texto considerando la información proporcionada y las conclusiones que enviaste. Crea a través de una estructura de storytelling para que una persona pueda leer y entender la situación actual de la empresa.
+  ```
+  - [Napkin](https://app.napkin.ai): turns your text into visuals so sharing your ideas is quick and effective.
+  - Como utilizar la heramienta en base a las necesidades
+
+Frase del día: Quiero ser el profesional del futuro con IA.
