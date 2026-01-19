@@ -1,0 +1,1 @@
+This is a timed text file containing the subtitle in JSON format of a YouTube video. Please extract all the text and format it into clearly separated, readable paragraphs with extra spacing between them. Generate a downloadable transcript file, ensuring that no information is omitted. Don't rephrase the text; take it as it is from the file.
