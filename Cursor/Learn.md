@@ -200,3 +200,40 @@ Agents use significantly more tokens than asking simple questions because of all
 Working effectively with agents is about learning what to delegate and when. Start with smaller, well-defined tasks to build up confidence. As you get comfortable, you can delegate larger chunks of work, but always with checkpoints and verification steps along the way.
 
 The goal isn't to eliminate human involvement but to amplify what you can accomplish. You become the architect and reviewer while agents handle the implementation details.
+
+### How Agent works
+
+An agent is built on three components:
+
+1. Instructions: The system prompt and rules that guide agent behavior
+2. Tools: File editing, codebase search, terminal execution, and more
+3. User messages: Your prompts and follow-ups that direct the work
+
+### Tools
+
+Tools are the building blocks of Agent. They are used to search your codebase and the web to find relevant information, make edits to your files, run terminal commands, and more.
+
+There is no limit on the number of tool calls Agent can make during a task.
+
+
+## Message summarization
+
+As conversations grow longer, Cursor automatically summarizes and manages context to keep your chats efficient.
+
+You can manually trigger summarization using the /summarize command in chat. This command helps manage context when conversations become too long, allowing you to continue working efficiently without losing important information.
+
+## Checkpoints
+
+Checkpoints are automatic snapshots of Agent's changes to your codebase, letting you undo modifications if needed. Restore from the Restore Checkpoint button on previous requests or the + button when hovering over a message.
+
+Checkpoints are stored locally and separate from Git. Only use them for undoing Agent changes—use Git for permanent version control.
+
+#Export & Share
+
+Export Agent chats as markdown files via the context menu → "Export Chat", or share them as read-only links. Shared chats let recipients view and fork the conversation to continue in their own Cursor.
+
+Sharing requires a paid plan. Common secrets are auto-redacted and sharing is disabled in Privacy Mode.
+
+## Queued messages
+
+Queue follow-up messages while Agent is working on the current task. Your instructions wait in line and execute automatically when ready.
