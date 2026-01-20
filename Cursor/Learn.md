@@ -215,7 +215,6 @@ Tools are the building blocks of Agent. They are used to search your codebase an
 
 There is no limit on the number of tool calls Agent can make during a task.
 
-
 ## Message summarization
 
 As conversations grow longer, Cursor automatically summarizes and manages context to keep your chats efficient.
@@ -237,3 +236,101 @@ Sharing requires a paid plan. Common secrets are auto-redacted and sharing is di
 ## Queued messages
 
 Queue follow-up messages while Agent is working on the current task. Your instructions wait in line and execute automatically when ready.
+
+## Agent Modes
+
+Agent offers different modes optimized for specific tasks. Each mode has different capabilities and tools enabled to match your workflow needs.
+
+| Mode      | For                                 | Capabilities                                | Tools             |
+| --------- | ----------------------------------- | --------------------------------------------| ----------------- |
+| **Agent** | Complex features, refactoring       | Autonomous exploration, multi-file edits     | All tools enabled |
+| **Ask**   | Learning, planning, questions       | Read-only exploration, no automatic changes | Search tools only |
+| **Plan**  | Complex features requiring planning | Creates detailed plans before execution, asks clarifying questions | All tools enabled |
+| **Debug** | Tricky bugs, regressions            | Hypothesis generation, log instrumentation, runtime analysis       | All tools + debug server |
+
+### Agent
+
+The default mode for complex coding tasks. Agent autonomously explores your codebase, edits multiple files, runs commands, and fixes errors to complete your requests.
+
+### Ask
+
+Read-only mode for learning and exploration. Ask searches your codebase and provides answers without making any changes - perfect for understanding code before modifying it.
+
+### Plan
+
+Plan Mode creates detailed implementation plans before writing any code. Agent researches your codebase, asks clarifying questions, and generates a reviewable plan you can edit before building.
+
+#### How it works
+
+1. Agent asks clarifying questions to understand your requirements
+2. Researches your codebase to gather relevant context
+3. Creates a comprehensive implementation plan
+4. You review and edit the plan through chat or markdown files
+5. Click to build the plan when ready
+
+### Debug
+
+Debug Mode helps you find root causes and fix tricky bugs that are hard to reproduce or understand. Instead of immediately writing code, the agent generates hypotheses, adds log statements, and uses runtime information to pinpoint the exact issue before making a targeted fix.
+
+#### How it works
+
+1. **Explore and hypothesize**: The agent explores relevant files, builds context, and generates multiple hypotheses about potential root causes.
+2. **Add instrumentation**: The agent adds log statements that send data to a local debug server running in a Cursor extension.
+3. **Reproduce the bug**: Debug Mode asks you to reproduce the bug and provides specific steps. This keeps you in the loop and ensures the agent captures real runtime behavior.
+4. **Analyze logs**: After reproduction, the agent reviews the collected logs to identify the actual root cause based on runtime evidence.
+5. **Make targeted fix**: The agent makes a focused fix that directly addresses the root cause—often just a few lines of code.
+6. **Verify and clean up**: You can re-run the reproduction steps to verify the fix. Once confirmed, the agent removes all instrumentation.
+
+## Agent Review
+
+When Agent generates code changes, they're presented in a review interface that shows additions and deletions with color-coded lines. This allows you to examine and control which changes are applied to your codebase.
+
+The review interface displays code changes in a familiar diff format.
+
+Agent Review runs Cursor Agent in a specialized mode focused on catching bugs in your diffs. This tool analyzes proposed changes line-by-line and flags issues before you merge.
+
+## Agent Terminal
+
+Agent runs shell commands directly in your terminal, with safe sandbox execution on macOS and Linux. Command history persists across sessions. Click skip to interrupt running commands with Ctrl+C.
+
+By default, Agent runs terminal commands in a restricted environment that blocks unauthorized file access and network activity. Commands execute automatically while staying confined to your workspace.
+
+The sandbox prevents unauthorized access while allowing workspace operations:
+
+| Access Type    | Description |
+|----------------|-------------|
+| File access    | Read access to the filesystem |
+|                | Read and write access to workspace directories |
+| Network access | Blocked by default (configurable in settings) |
+| Temporary files | Full access to /tmp/ or equivalent system temp directories |
+
+## Agent Browser
+
+Agent can control a web browser to test applications, visually edit layouts and styles, audit accessibility, convert designs into code, and more. With full access to console logs and network traffic, Agent can debug issues and automate comprehensive testing workflows.
+
+Agent displays browser actions like screenshots and actions in the chat, as well as the browser window itself either in a separate window or an inline pane.
+
+## Agent Security
+
+AI can behave unexpectedly due to prompt injection, hallucinations, and other issues. We protect users with guardrails that limit what agents can do. By default, sensitive actions require your manual approval.
+
+Cursor includes tools that help agents write code: reading files, editing files, running terminal commands, searching the web, and more.
+
+Reading files and searching code don't require approval. Use .cursorignore to block agent access to specific files. Actions that could expose sensitive data require your explicit approval.
+
+Agents can modify workspace files without approval, except for configuration files. Changes save immediately to disk. Always use version control so you can revert changes. Configuration files (like workspace settings) need your approval first.
+
+Terminal commands need your approval by default. Review every command before letting the agent run it.
+
+You can connect external tools using MCP. All MCP connections need your approval. After you approve an MCP connection, each tool call still needs individual approval before running.
+
+## Agent Hooks
+
+Hooks let you observe, control, and extend the agent loop using custom scripts. Hooks are spawned processes that communicate over stdio using JSON in both directions. They run before or after defined stages of the agent loop and can observe, block, or modify behavior.
+
+With hooks, you can:
+
+- Run formatters after edits
+- Add analytics for events
+- Scan for PII or secrets
+- Gate risky operations (e.g., SQL writes)
